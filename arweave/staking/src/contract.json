@@ -1,0 +1,8 @@
+{
+  "vault": [],
+  "roles": {},
+  "settings": [
+    ["quorum", 0.5],
+    ["support", 0.5]
+  ]
+}
