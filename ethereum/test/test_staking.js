@@ -9,8 +9,8 @@ contract("Test staking", _ => {
             })
             .then(bundlers => {
                 assert.equal(
-                    bundlers,
-                    [],
+                    bundlers.length,
+                    [].length,
                     "Fuck"
                 )
             })
